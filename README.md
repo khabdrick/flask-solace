@@ -1,14 +1,12 @@
 # How to start up the application
 
-## Environment Setup
-
 1. Clone this repository.
 
 2. [Optional] Set up a Python virtual environment by running python3 -m venv venv.
 
 3. [Optional] Activate the virtual environment:
-    - For MacOS/Linux, use the command source `venv/bin/activate`.
-    - For Windows, use the command `venv/Scripts/activate`.
+    - For MacOS/Linux, use the command source venv/bin/activate.
+    - For Windows, use the command venv/Scripts/activate.
 4. After activating the virtual environment, ensure that you have the latest version of pip installed by running `pip install --upgrade pip`.
 
 5. Install the dependencies with the following command:
