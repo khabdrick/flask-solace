@@ -10,10 +10,10 @@ import json
 app = Flask(__name__)
 
 broker_props = {
-    "solace.messaging.transport.host": "tcps://mr-connection-31ivs620nqh.messaging.solace.cloud:55443",
+    "solace.messaging.transport.host": "tcps://xx-xxxxxxx-xxxxx.messaging.solace.cloud:55443",
     "solace.messaging.service.vpn-name": "test",
     "solace.messaging.authentication.scheme.basic.username": "solace-cloud-client",
-    "solace.messaging.authentication.scheme.basic.password": "ne1rfnknchsrt3cb1tjdbi2ltr",
+    "solace.messaging.authentication.scheme.basic.password": "xxxxxxxxxxx",
 }
 transport_security = TLS.create().with_certificate_validation(
     True, validate_server_name=False, trust_store_file_path="."
